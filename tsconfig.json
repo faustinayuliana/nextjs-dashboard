@@ -26,10 +26,7 @@
       "@/*": [
         "./*"
       ]
-    },
-    "baseUrl": ".",
-    // 💡 TAMBAHKAN BARIS INI UNTUK MENYELESAIKAN ERROR DEPRECATION
-    "ignoreDeprecations": "5.0"
+    }
   },
   "include": [
     "next-env.d.ts",
