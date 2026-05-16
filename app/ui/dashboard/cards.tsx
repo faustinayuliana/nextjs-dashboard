@@ -15,7 +15,6 @@ const iconMap = {
 };
 
 export default async function CardWrapper() {
-  // Mengambil data secara asinkron langsung di komponen
   const {
     numberOfInvoices,
     numberOfCustomers,

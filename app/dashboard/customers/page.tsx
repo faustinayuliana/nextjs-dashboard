@@ -16,7 +16,6 @@ export default async function Page({
 }) {
   const query = searchParams?.query || '';
   
-  // Mengambil data customer dari database
   const customers = await fetchFilteredCustomers(query);
 
   return (
